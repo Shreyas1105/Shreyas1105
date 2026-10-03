@@ -1,24 +1,40 @@
-<!-- Replace every YOUR_USERNAME with your GitHub username -->
+<!-- Before committing, replace: YOUR_USERNAME (GitHub), YOUR_LINKEDIN, YOUR_EMAIL, REPO_NAME, YOUR_DEMO_LINK -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shreyas&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Application%20Security%20%C2%B7%20Full-Stack%20%C2%B7%20Applied%20ML&descAlignY=58&descSize=18" width="100%" alt="Shreyas banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:262421,50:3a3835,100:5d8a3c&height=210&section=header&text=%E2%99%9E%20Shreyas&fontColor=f5f5f5&fontSize=54&fontAlignY=38&desc=Think%20like%20the%20attacker.%20Defend%20like%20a%20grandmaster.&descAlignY=60&descSize=17" width="100%" alt="Shreyas banner"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7DD3FC&center=true&vCenter=true&width=640&lines=Breaking+things+to+secure+them;Building+real-time+AI+surveillance+systems;Network+security+intern+%40+1stop.ai;Final-year+CSE+%40+BMSIT" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=B9CA43&center=true&vCenter=true&width=700&lines=Security+is+a+game+of+anticipating+the+next+move;Building+real-time+AI+surveillance+systems;Network+security+intern+%40+1stop.ai;Final-year+CSE+%40+BMSIT" alt="Typing intro" />
 </p>
 
 <p align="center">
-  <a href="https://shreyasportfolio-alpha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0f2027?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://shreyasportfolio-alpha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-262421?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.chess.com/member/shreyas162005"><img src="https://img.shields.io/badge/Chess.com-5d8a3c?style=for-the-badge&logo=chessdotcom&logoColor=white" alt="Chess.com"/></a>
   <a href="https://www.linkedin.com/in/shreyas-m-shenoy-872096346/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:shreyasmshenoy2005@gmail.com"><img src="https://img.shields.io/badge/Email-203a43?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:shreyasmshenoy2005@gmail.com"><img src="https://img.shields.io/badge/Email-3a3835?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
-## About
+## ♟ The Opening: About me
 
-Final-year Computer Science student in Bangalore, working on network security at 1stop.ai. I like both sides of security: finding the flaw and shipping the fix. I build full-stack products and applied ML systems so I understand what I'm trying to protect.
+Final-year Computer Science student in Bangalore and network security intern at 1stop.ai. I play both sides of security: finding the weakness and shipping the fix. I build full-stack products and applied ML systems so I understand what I'm defending.
 
-## What I'm building
+<table>
+<tr>
+<td width="55%" valign="top">
+
+**Position of the day:** the Sicilian Defense, where an unbalanced position gives both sides real chances. Same as a good pentest: you attack where the structure is weakest.
+
+Want a game? [Challenge me on Chess.com](https://www.chess.com/member/shreyas162005).
+
+</td>
+<td width="45%" align="center">
+  <img src="https://lichess1.org/export/fen.gif?fen=rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_0_2&theme=green&piece=cburnett" width="280" alt="Sicilian Defense position"/>
+</td>
+</tr>
+</table>
+
+## ♞ The Middlegame: What I'm building
 
 **Intelligent HADS** is a real-time anomaly detection system for surveillance feeds.
 - Pose estimation feeding a CNN-LSTM model that flags abnormal behaviour
@@ -26,37 +42,46 @@ Final-year Computer Science student in Bangalore, working on network security at
 - [Repo](https://github.com/Shreyas1105/Intelligent-HADS)
 
 **Security work**
-- Write-ups from labs and CTFs: [writeups](https://github.com/Shreyas1105/writeups)
-- Tooling and experiments: see pinned repos below
+- Lab and CTF write-ups: [writeups](https://github.com/Shreyas1105/writeups)
+- Tools and experiments in the pinned repos below
 
-## Stack
+## ♛ My pieces: Skills
+
+| Piece | Role | What I bring |
+|---|---|---|
+| ♟ Pawns | Fundamentals | Data structures & algorithms, networking, Linux, Git |
+| ♞ Knights | Unconventional moves | Offensive security, Burp Suite, Nmap, Metasploit, OWASP Top 10 |
+| ♝ Bishops | Long-range vision | Python, TypeScript, applied ML (CNN-LSTM, pose estimation) |
+| ♜ Rooks | Solid structure | React/Next.js, Node.js, MongoDB, Docker |
+| ♛ Queen | Most versatile | Full-stack builds that ship end to end |
+| ♚ King | What I protect | Application security, threat modelling, secure design |
 
 <p>
   <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,nodejs,express,mongodb,docker,linux,git,tensorflow&theme=dark" alt="Tech stack"/>
 </p>
 
-**Security:** Burp Suite · Nmap · Wireshark · Metasploit · OWASP Top 10 · threat modelling
+## 📌 The Pin: Featured repos
 
-## Activity
+Pinned repos sit right under this README. Each one gets a one-line result, like a puzzle with a clear solution.
+
+## 🍴 Activity: The game so far
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-chess-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-chess.svg" />
+  <img alt="Contribution graph" src="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-chess.svg" width="100%" />
 </picture>
 
-<img src="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
+## ♚ The Endgame: Where I'm headed
 
-## Currently
-
-- Preparing for AppSec and security engineering roles
-- Writing up one lab or CTF each week
-- Adding a STRIDE threat model to my capstone
+- Landing an AppSec / security engineering role by end of 2026
+- One lab or CTF write-up a week
+- STRIDE threat model for my capstone
 
 ---
 
 <p align="center">
-  <sub>Open to AppSec / security engineering opportunities · Bengaluru, India</sub>
+  <sub>♟ Open to AppSec and security engineering opportunities · Bengaluru, India</sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5d8a3c,50:3a3835,100:262421&height=100&section=footer" width="100%" alt=""/>
