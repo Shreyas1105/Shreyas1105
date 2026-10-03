@@ -1,0 +1,48 @@
+# Save as: .github/workflows/generate-contrib.yml
+# in your profile repo (the one named exactly like your GitHub username).
+name: Generate contribution graphics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # 1. Snake animation (light + dark)
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 2. 3D contribution skyline
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect 3D output
+        run: cp profile-3d-contrib/profile-night-rainbow.svg dist/
+
+      # 3. Push everything to the `output` branch
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.2.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
