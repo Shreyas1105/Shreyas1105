@@ -1,87 +1,65 @@
-<!-- Before committing, replace: YOUR_USERNAME (GitHub), YOUR_LINKEDIN, YOUR_EMAIL, REPO_NAME, YOUR_DEMO_LINK -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:262421,50:3a3835,100:5d8a3c&height=210&section=header&text=%E2%99%9E%20Shreyas&fontColor=f5f5f5&fontSize=54&fontAlignY=38&desc=Think%20like%20the%20attacker.%20Defend%20like%20a%20grandmaster.&descAlignY=60&descSize=17" width="100%" alt="Shreyas banner"/>
+<!-- Replace: YOUR_USERNAME, YOUR_LINKEDIN, YOUR_EMAIL, REPO_NAME, YOUR_DEMO_LINK -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=B9CA43&center=true&vCenter=true&width=700&lines=Security+is+a+game+of+anticipating+the+next+move;Building+real-time+AI+surveillance+systems;Network+security+intern+%40+1stop.ai;Final-year+CSE+%40+BMSIT" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=39FF14&background=0D111700&center=true&vCenter=true&width=720&lines=%24+whoami;shreyas+%7C+appsec+%2B+full-stack;%24+tail+-f+%2Fvar%2Flog%2Fthreats;building+things+worth+defending" alt="Terminal typing intro" />
 </p>
 
-<p align="center">
-  <a href="https://shreyasportfolio-alpha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-262421?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.chess.com/member/shreyas162005"><img src="https://img.shields.io/badge/Chess.com-5d8a3c?style=for-the-badge&logo=chessdotcom&logoColor=white" alt="Chess.com"/></a>
-  <a href="https://www.linkedin.com/in/shreyas-m-shenoy-872096346/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:shreyasmshenoy2005@gmail.com"><img src="https://img.shields.io/badge/Email-3a3835?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+```bash
+$ whoami
+Shreyas M Shenoy
 
----
+$ cat about.txt
+Final-year CSE student @ BMSIT, Bangalore
+Network security intern @ 1stop.ai
+Offence to understand it, engineering to fix it
+Targeting AppSec / security engineering roles
+```
 
-## ♟ The Opening: About me
+## `$ ./threat-feed`
 
-Final-year Computer Science student in Bangalore and network security intern at 1stop.ai. I play both sides of security: finding the weakness and shipping the fix. I build full-stack products and applied ML systems so I understand what I'm defending.
+<!--THREAT_FEED_START-->
+```text
+$ ./threat-feed --source cisa-kev --limit 5
+SYSTEM: ONLINE | THREAT LEVEL: PENDING | LAST SYNC: waiting for first run
+```
+<!--THREAT_FEED_END-->
 
-<table>
-<tr>
-<td width="55%" valign="top">
+## `$ ls -la projects/`
 
-**Position of the day:** the Sicilian Defense, where an unbalanced position gives both sides real chances. Same as a good pentest: you attack where the structure is weakest.
+```bash
+drwxr-xr-x  intelligent-hads/   # CNN-LSTM pose anomaly detection + live dashboard
+drwxr-xr-x  security-writeups/  # labs, CTFs, and the fixes
+drwxr-xr-x  portfolio/          # glassmorphism site with 3D chess pieces
+```
 
-Want a game? [Challenge me on Chess.com](https://www.chess.com/member/shreyas162005).
+[intelligent-hads](https://github.com/Shreyas1105/Intelligent-HADS) · [security-writeups](https://github.com/Shreyas1105/writeups) · [portfolio](https://shreyasportfolio-alpha.vercel.app/)
 
-</td>
-<td width="45%" align="center">
-  <img src="https://lichess1.org/export/fen.gif?fen=rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_0_2&theme=green&piece=cburnett" width="280" alt="Sicilian Defense position"/>
-</td>
-</tr>
-</table>
+## `$ cat skills.txt`
 
-## ♞ The Middlegame: What I'm building
+```bash
+[offence]   Burp Suite, Nmap, Wireshark, Metasploit, OWASP Top 10
+[build]     Python, TypeScript, React/Next.js, Node.js, MongoDB, Docker
+[ml]        CNN-LSTM, pose estimation, TensorFlow
+[core]      DSA, networking, Linux, Git
+```
 
-**Intelligent HADS** is a real-time anomaly detection system for surveillance feeds.
-- Pose estimation feeding a CNN-LSTM model that flags abnormal behaviour
-- Full-stack dashboard for live monitoring and alerts
-- [Repo](https://github.com/Shreyas1105/Intelligent-HADS)
+## `$ cat hobbies.txt`
 
-**Security work**
-- Lab and CTF write-ups: [writeups](https://github.com/Shreyas1105/writeups)
-- Tools and experiments in the pinned repos below
+```bash
+chess      # Sicilian player. Same mindset as a pentest: attack the weak structure.
+```
 
-## ♛ My pieces: Skills
+[Play me on Chess.com](https://www.chess.com/member/shreyas162005)
 
-| Piece | Role | What I bring |
-|---|---|---|
-| ♟ Pawns | Fundamentals | Data structures & algorithms, networking, Linux, Git |
-| ♞ Knights | Unconventional moves | Offensive security, Burp Suite, Nmap, Metasploit, OWASP Top 10 |
-| ♝ Bishops | Long-range vision | Python, TypeScript, applied ML (CNN-LSTM, pose estimation) |
-| ♜ Rooks | Solid structure | React/Next.js, Node.js, MongoDB, Docker |
-| ♛ Queen | Most versatile | Full-stack builds that ship end to end |
-| ♚ King | What I protect | Application security, threat modelling, secure design |
+## `$ cat .secret`
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,nodejs,express,mongodb,docker,linux,git,tensorflow&theme=dark" alt="Tech stack"/>
-</p>
+```bash
+cat: .secret: Permission denied
+# hint: the rendered view is not the whole story
+```
 
-## 📌 The Pin: Featured repos
+## `$ contact --list`
 
-Pinned repos sit right under this README. Each one gets a one-line result, like a puzzle with a clear solution.
+[Portfolio](https://shreyasportfolio-alpha.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/shreyas-m-shenoy-872096346/) · [Email](mailto:shreyasmshenoy2005@gmail.com) · [Chess.com](https://www.chess.com/member/shreyas162005)
 
-## 🍴 Activity: The game so far
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-chess-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-chess.svg" />
-  <img alt="Contribution graph" src="https://raw.githubusercontent.com/Shreyas1105/Shreyas1105/output/github-snake-chess.svg" width="100%" />
-</picture>
-
-## ♚ The Endgame: Where I'm headed
-
-- Landing an AppSec / security engineering role by end of 2026
-- One lab or CTF write-up a week
-- STRIDE threat model for my capstone
-
----
-
-<p align="center">
-  <sub>♟ Open to AppSec and security engineering opportunities · Bengaluru, India</sub>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5d8a3c,50:3a3835,100:262421&height=100&section=footer" width="100%" alt=""/>
+<!-- TmljZSBleWVzLiBTdGFnZSAyIGlzIGhpZGluZyBpbiAuY3RmL3N0YWdlMi50eHQgaW4gdGhpcyByZXBvLiBDbGFzc2ljIGNpcGhlciwgc2hpZnRlZCBoYWxmd2F5Lg== -->
