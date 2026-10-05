@@ -20,8 +20,21 @@ Targeting AppSec / security engineering roles
 <!--THREAT_FEED_START-->
 ```text
 $ ./threat-feed --source cisa-kev --limit 5
-SYSTEM: ONLINE | THREAT LEVEL: PENDING | LAST SYNC: waiting for first run
+SYSTEM: ONLINE | THREAT LEVEL: ELEVATED | LAST SYNC: 2026-10-05 12:47 UTC
+KEV catalog: 1734 entries | added in last 7 days: 6
+
+[2026-10-04] CVE-2026-88779  Citrix NetScaler
+             Citrix NetScaler Improper Restriction of Operations within th...
+[2026-10-02] CVE-2026-102490  Zammad GmbH Zammad
+             Zammad GmbH Zammad Improper Privilege Management Vulnerability
+[2026-10-02] CVE-2026-102489  Zammad GmbH Zammad
+             Zammad GmbH Zammad Session Fixation Vulnerability
+[2026-10-01] CVE-2026-104286  Fortinet FortiMail
+             Fortinet FortiMail Path Traversal Vulnerability
+[2026-09-30] CVE-2026-76504  Cisco Catalyst SD-WAN Manager
+             Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability
 ```
+<sub>Source: [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Threat level is my own heuristic based on entries added in the last 7 days.</sub>
 <!--THREAT_FEED_END-->
 
 ## `$ ls -la projects/`
