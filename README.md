@@ -20,7 +20,7 @@ Targeting AppSec / security engineering roles
 <!--THREAT_FEED_START-->
 ```text
 $ ./threat-feed --source cisa-kev --limit 5
-SYSTEM: ONLINE | THREAT LEVEL: ELEVATED | LAST SYNC: 2026-10-05 12:47 UTC
+SYSTEM: ONLINE | THREAT LEVEL: ELEVATED | LAST SYNC: 2026-10-06 12:17 UTC
 KEV catalog: 1734 entries | added in last 7 days: 6
 
 [2026-10-04] CVE-2026-88779  Citrix NetScaler
