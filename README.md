@@ -39,7 +39,7 @@ Want a game? [Challenge me on Chess.com](https://www.chess.com/member/shreyas162
 **Intelligent HADS** is a real-time anomaly detection system for surveillance feeds.
 - Pose estimation feeding a CNN-LSTM model that flags abnormal behaviour
 - Full-stack dashboard for live monitoring and alerts
-- [Repo](https://github.com/Shreyas1105/REPO_NAME) · [Demo](https://YOUR_DEMO_LINK)
+- [Repo](https://github.com/Shreyas1105/Intelligent-HADS) 
 
 **Security work**
 - Tools and experiments in the pinned repos below
