@@ -1,0 +1,38 @@
+# Save as: .github/workflows/generate-contrib.yml
+# in your profile repo (the repo named exactly like your GitHub username).
+name: Generate contribution graphics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # Chess-board colored contribution snake (light + dark)
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake-chess.svg?color_snake=%23262421&color_dots=%23ebecd0,%23b9ca43,%2395bb4a,%23769656,%235d8a3c&color_empty=%23eeeed2
+            dist/github-snake-chess-dark.svg?color_snake=%23f5f5f5&color_dots=%233a3835,%23b9ca43,%2395bb4a,%23769656,%235d8a3c&color_empty=%23302e2b
+
+      # Push the SVGs to the `output` branch
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.2.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
