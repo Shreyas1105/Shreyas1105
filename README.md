@@ -64,6 +64,14 @@ Want a game? [Challenge me on Chess.com](https://www.chess.com/member/shreyas162
 
 Pinned repos sit right under this README. Each one gets a one-line result, like a puzzle with a clear solution.
 
+## ♟ Play me: community chess vs Stockfish
+
+Every visitor plays White, and I reply as Black. Click a move, press *Submit new issue*, and the board updates in about 30 seconds. Built with GitHub Issues and Actions, with every input validated.
+
+<!-- CHESS:START -->
+Run the "Chess" workflow once from the Actions tab to create the first board.
+<!-- CHESS:END -->
+
 ## 🍴 Activity: The game so far
 
 <picture>
