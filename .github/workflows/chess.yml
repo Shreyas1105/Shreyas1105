@@ -1,0 +1,67 @@
+name: Chess
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:   # run once manually to create the first board
+
+permissions:
+  contents: write
+  issues: write
+
+# One move at a time, so two visitors can't race each other.
+concurrency:
+  group: chess-game
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'chess|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install chess==1.11.1
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq stockfish
+
+      # Untrusted issue data goes in via env vars, never inline in the script.
+      - name: Play move
+        id: play
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.event.repository.default_branch }}
+          COMMENT_FILE: ${{ runner.temp }}/comment.md
+        run: python chess/play.py
+
+      - name: Commit board
+        if: steps.play.outputs.changed == 'true'
+        run: |
+          git config user.name "chess-bot"
+          git config user.email "chess-bot@users.noreply.github.com"
+          git add README.md chess/game.json chess/board.svg
+          git diff --cached --quiet || git commit -m "chess: update board"
+          git pull --rebase
+          git push
+
+      - name: Reply and close issue
+        if: always() && github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          COMMENT_FILE: ${{ runner.temp }}/comment.md
+        run: |
+          [ -f "$COMMENT_FILE" ] || echo "Something went wrong processing that move." > "$COMMENT_FILE"
+          gh issue comment "$ISSUE_NUMBER" --body-file "$COMMENT_FILE"
+          gh issue close "$ISSUE_NUMBER" --reason completed
