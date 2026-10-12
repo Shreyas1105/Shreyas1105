@@ -124,11 +124,22 @@ width="70%"
 
 <div align="center">
 
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=shreyas1105&theme=github-compact&hide_border=true&area=true"
-alt="GitHub Contribution Activity Graph"
-width="100%"
-/>
+<a href="https://github.com/shreyas1105">
+  <img
+    src="https://ghchart.rshah.org/0e75b6/shreyas1105"
+    alt="Shreyas's GitHub Contribution Graph"
+    width="100%"
+  />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/shreyas1105?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/View-All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="View all repositories"
+  />
+</a>
 
 </div>
 
