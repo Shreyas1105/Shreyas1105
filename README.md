@@ -1,30 +1,30 @@
-<!--
-  GitHub Profile README
-  Name: Shreyas M Shenoy
-  Username: shreyas1105
--->
+<!-- ============================================== -->
+
+<!-- GITHUB PROFILE: SHREYAS M SHENOY               -->
+
+<!-- GitHub Username: shreyas1105                    -->
+
+<!-- ============================================== -->
 
 <div align="center">
 
-# Hi 👋, I'm Shreyas M Shenoy
+# 👋 Hi, I'm Shreyas M Shenoy
 
 ### Software Developer | AI & ML Enthusiast | Full-Stack Developer
 
-Building intelligent applications, scalable web solutions, and practical AI-powered systems.
+*Building intelligent applications, scalable web solutions, and practical AI-powered systems.*
 
 <br/>
 
 <a href="https://shreyasportfolio-alpha.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-181717?style=for-the-badge" alt="Portfolio"/>
 </a>
 <a href="mailto:shreyasmshenoy2005@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/📧_Email-Contact_Me-D14836?style=for-the-badge" alt="Email"/>
 </a>
 <a href="https://www.linkedin.com/in/shreyas-m-shenoy-872096346">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
-<br/><br/>
 
 </div>
 
@@ -33,10 +33,10 @@ Building intelligent applications, scalable web solutions, and practical AI-powe
 ## 👨‍💻 About Me
 
 * 🎓 Engineering student specializing in **Artificial Intelligence and Machine Learning**.
-* 🔭 Currently working on a **Hybrid Spatiotemporal Surveillance Framework for Human Anomaly Detection**.
+* 🔭 Working on a **Hybrid Spatiotemporal Surveillance Framework for Human Anomaly Detection**.
 * 🤖 Interested in Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision.
 * 🌐 Exploring full-stack development and scalable backend systems.
-* 🚀 Passionate about building practical applications that solve real-world problems.
+* 🚀 Passionate about building applications that solve real-world problems.
 * 🤝 Open to collaborating on full-stack applications and AI/ML projects.
 * 💼 Portfolio: [shreyasportfolio-alpha.vercel.app](https://shreyasportfolio-alpha.vercel.app/)
 * 📫 Email: **[shreyasmshenoy2005@gmail.com](mailto:shreyasmshenoy2005@gmail.com)**
@@ -120,24 +120,35 @@ width="70%"
 
 ---
 
-## 📈 Contribution Activity
+## 🎮 Contribution Arcade
 
 <div align="center">
 
+### INSERT COIN · VIEW CONTRIBUTIONS · LEVEL UP
+
 <a href="https://github.com/shreyas1105">
   <img
-    src="https://ghchart.rshah.org/0e75b6/shreyas1105"
-    alt="Shreyas's GitHub Contribution Graph"
+    src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub contribution game animation"
     width="100%"
   />
 </a>
 
-<br/><br/>
+<br/>
+
+**Every contribution is another XP earned!** 👾
+
+<a href="https://github.com/shreyas1105?tab=overview">
+  <img
+    src="https://img.shields.io/badge/PLAYER-SHREYAS-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub player profile"
+  />
+</a>
 
 <a href="https://github.com/shreyas1105?tab=repositories">
   <img
-    src="https://img.shields.io/badge/View-All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="View all repositories"
+    src="https://img.shields.io/badge/QUESTS-EXPLORE_PROJECTS-6E40C9?style=for-the-badge"
+    alt="Explore projects"
   />
 </a>
 
@@ -161,8 +172,6 @@ An AI-powered surveillance system designed to identify human anomalies in video 
 
 🌐 [Explore my portfolio](https://shreyasportfolio-alpha.vercel.app/)
 
----
-
 ### 🔐 2. Hybrid Multimedia Steganography and Cryptography Tool
 
 A security-focused application combining cryptography and multimedia steganography to explore secure information storage and concealment.
@@ -171,8 +180,6 @@ A security-focused application combining cryptography and multimedia steganograp
 
 🌐 [Explore my portfolio](https://shreyasportfolio-alpha.vercel.app/)
 
----
-
 ### 💬 3. Real-Time Chat Application
 
 A web application focused on real-time communication, interactive user experiences, and backend integration.
@@ -180,8 +187,6 @@ A web application focused on real-time communication, interactive user experienc
 **Focus:** Full-stack development · Messaging · API integration
 
 🌐 [Explore my portfolio](https://shreyasportfolio-alpha.vercel.app/)
-
----
 
 ### 🏡 4. House Price Prediction
 
@@ -218,7 +223,7 @@ A machine learning project that uses housing data and predictive modeling to est
   <img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
 </a>
 <a href="mailto:shreyasmshenoy2005@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/Gmail-Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 <br/><br/>
